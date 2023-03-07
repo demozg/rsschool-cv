@@ -1,12 +1,13 @@
-Dmitry Kuzmik
-Contacts
-Location: Brest, Belarus
-Phone: +375 29 134-40-41
-Email: kuzmikd@mail.ru
-GitHub: demozg
-About Me
-I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
-I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
+# Dmitry Kuzmik
+## My Contacts
+*****
+* __Location__: Brest, Belarus
+* __Phone__: +375 29 522-71-33
+* __Email__: kuzmikd@mail.ru
+* __GitHub__: [demozg](https://github.com/demozg)
+## About Me
+*****
+I have a great desire to gain new knowledge, for this I am ready to work hard and am not afraid of difficulties on my way. I'm a great team worker and you can rely on me.
 
 Skills
 HTML
