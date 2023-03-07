@@ -8,25 +8,26 @@
 ## About Me
 *****
 I have a great desire to gain new knowledge, for this I am ready to work hard and am not afraid of difficulties on my way. I'm a great team worker and you can rely on me.
-
-Skills
-HTML
-CSS/SASS
-JavaScript (Basic)
-Git
-Code Example
-function sum(a, b) {
-  return a + b;
+## Skills
+*****
+* HTML
+* CSS/SASS/BEM
+* JavaScript (Basic)
+* Git/Github
+## Code Example
+****
+```
+function mergeArrays(arr1, arr2) {
+  let sorted = [...new Set(arr1.concat(arr2))].sort((a, b) => a - b);
+  return sorted;
 }
-
-let result = sum(1, 2);
-alert( result );
-Experience
-Education
-University: Belarusian National Technical University, Civil Engineering major
-Courses:
-CS50 lectures
-FreeCodeCamp
-HTML Academy
-English
-A2 (I had been practicing English, when I worked in the USA as an exchange student)
+```
+## Education
+*****
+* **University**: Brest State Technical University, Specialty "Land reclamation and water management"
+* **Courses**:
+    + RS Schools Course «JavaScript/Front-end. Stage 0» (completed)
+## Languages
+*****
+* Russian
+* English - A1
