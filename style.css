@@ -43,6 +43,7 @@ body {
 
 .menu-link {
   padding: 0 20px;
+  font-size: 20px;
   text-decoration: none;
   color: #000000;
 }
@@ -74,6 +75,28 @@ body {
 
 .section-resume-photo {
   border-radius: 50%;
+}
+
+.section-title {
+  position: relative;
+  width: 200px;
+  padding: 5px 10px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: #000000;
+}
+
+.section-title::after {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  content: "";
+  width: 469px;
+  height: 1px;
+  background: #000000;
 }
 
 .section-list {
