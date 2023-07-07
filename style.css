@@ -16,6 +16,7 @@ body {
   font-family: "Lato", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .container {
@@ -55,12 +56,12 @@ body {
 
 .section {
   width: calc(50% - 20px);
-  padding: 10px;
+  padding: 10px 10px 20px 10px;
 }
 
 .section-resume {
   width: 100%;
-  padding: 30px 0;
+  padding: 40px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -73,6 +74,94 @@ body {
 
 .section-resume-photo {
   border-radius: 50%;
+}
+
+.section-list {
+  margin: 0;
+  padding: 0;
+}
+
+.section-list-item {
+  position: relative;
+  margin: 0 0 8px 0;
+  padding-left: 25px;
+  list-style: none;
+}
+
+.section-list-item::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  margin-right: 10px;
+  border: 2px solid #000000;
+}
+
+.contacts-list-item:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./assets/icons/place.svg");
+  border: none;
+}
+
+.contacts-list-item:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./assets/icons/github.svg");
+  border: none;
+}
+
+.contacts-list-item:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./assets/icons/mail.svg");
+  border: none;
+}
+
+.contacts-list-item:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./assets/icons/discord.svg");
+  border: none;
+}
+
+.contacts-list-item:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./assets/icons/telegram.svg");
+  border: none;
 }
 
 .footer-container {
