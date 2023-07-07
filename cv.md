@@ -19,7 +19,7 @@ function mergeArrays(arr1, arr2) {
 }
 ```
 ## Education
-* **University**: Brest State Technical University, Specialty "Land reclamation and water management"
+* **University**: Brest State Technical University. Speciality "Land reclamation and water management"
 * **Courses**:
     + RS Schools Course «JavaScript/Front-end. Stage 0» (completed)
 ## Languages

@@ -13,11 +13,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.header-container {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu-list {
@@ -33,4 +43,56 @@ body {
 .menu-link {
   padding: 0 20px;
   text-decoration: none;
+  color: #000000;
+}
+
+.main-container {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+}
+
+.section-resume {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.section-resume-photo {
+  border-radius: 50%;
+}
+
+.footer-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rss-link {
+  width: 121px;
+  height: 45px;
+  display: inline-block;
+  background-image: url("./assets/icons/rs_school_js.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.github-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000000;
 }
