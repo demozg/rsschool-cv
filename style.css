@@ -52,6 +52,11 @@ body {
   color: #000000;
 }
 
+.menu-link:hover {
+  color: #faf9f9f1;
+  transition: all 0.3s;
+}
+
 .main-container {
   padding: 0 20px;
   display: flex;
@@ -77,6 +82,11 @@ body {
   color: #468bc7;
 }
 
+.section-link:hover {
+  color: #271f2bbc;
+  transition: all 0.3s;
+}
+
 .section-resume-photo {
   border-radius: 50%;
 }
@@ -84,21 +94,22 @@ body {
 .section-resume-title {
   font-size: 34px;
   font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .section-resume-subtitle {
   font-size: 20px;
   font-weight: 300;
+  word-spacing: 10px;
   color: #271f2bbc;
   text-transform: uppercase;
-  word-spacing: 10px;
 }
 
 .section-title {
   position: relative;
   width: 200px;
+  margin-bottom: 25px;
   padding: 5px 10px;
   font-size: 20px;
   text-align: center;
@@ -207,7 +218,7 @@ body {
 }
 
 .footer {
-  background: #c4e1fa;
+  background: #6092d7bc;
 }
 
 .footer-container {
@@ -221,7 +232,7 @@ body {
   width: 121px;
   height: 45px;
   display: inline-block;
-  background-image: url("./assets/icons/rs_school_js.svg");
+  background-image: url("./assets/icons/rss.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -230,4 +241,14 @@ body {
   margin-left: 20px;
   text-decoration: none;
   color: #000000;
+}
+
+.github-link:hover {
+  color: #faf9f9f1;
+  transition: all 0.3s;
+}
+
+.rss-link:hover {
+  background-image: url("./assets/icons/rss2.svg");
+  transition: all 0.3s;
 }
