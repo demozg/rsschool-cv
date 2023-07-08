@@ -24,8 +24,12 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  background: #a5cef3;
+}
+
 .header-container {
-  padding: 0 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,11 +74,26 @@ body {
 
 .section-link {
   text-decoration: none;
-  color: #000000;
+  color: #468bc7;
 }
 
 .section-resume-photo {
   border-radius: 50%;
+}
+
+.section-resume-title {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.section-resume-subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  color: #271f2bbc;
+  text-transform: uppercase;
+  word-spacing: 10px;
 }
 
 .section-title {
@@ -84,9 +103,9 @@ body {
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #271f2bbc;
   border-radius: 20px;
-  background-color: #000000;
+  background-color: #c4e1fa;
 }
 
 .section-title::after {
@@ -96,7 +115,7 @@ body {
   content: "";
   width: 469px;
   height: 1px;
-  background: #000000;
+  background: #271f2bbc;
 }
 
 .section-list {
@@ -185,6 +204,10 @@ body {
   background-size: contain;
   background-image: url("./assets/icons/telegram.svg");
   border: none;
+}
+
+.footer {
+  background: #c4e1fa;
 }
 
 .footer-container {
