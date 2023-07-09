@@ -92,10 +92,33 @@ body {
 }
 
 .section-resume-title {
+  position: relative;
+  padding-bottom: 10px;
   font-size: 34px;
   font-weight: 400;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.section-resume-title::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  margin-left: -25%;
+  width: 50%;
+  height: 2px;
+  background: #000000;
+}
+.section-resume-title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -15%;
+  width: 30%;
+  height: 2px;
+  background: #000000;
 }
 
 .section-resume-subtitle {
